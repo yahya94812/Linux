@@ -1,16 +1,3 @@
-# linux commands
-
-# Navigation basics
-* man : for manual
-* mv <source> <destination> : work as expected for both files, folders, renaming, source may be file of directory where destination is the location where you want to move your file or directory
-* touch : for creating empty file
-* echo "i will be back" > new_file.txt : for creating file with some text inside
-* cat > new_file.txt : read from std input(from terminal) and redirect it to the file end file with the ctrl + D (to signal end-of-file on Unix-like systems)
-* rm -i : for interactive deletion of file
-* rmdir : for deleting empty dir
-* rm -r : for deleting dir
-* tree : for getting the tree of filesystem from pwd
-  
 # Shell and other basics
 * linux-shell is nothing but cli, terminal; it is program that help to interact with user and operating system (intermediatory between user and kernal) eg: bourne shell(sh), C shell(csh), bourne again shell(bash)
 * bash scripting eg:
@@ -41,4 +28,3 @@
 * --help flag to almost any command to get more information about it. For example: date --help
 * To view examples with TLDR, use: tldr [command]
 * 
-
